@@ -20,3 +20,4 @@ pillow
 platformdirs
 numpy
 discord.py
+git+https://github.com/Pycord-Development/pycord
