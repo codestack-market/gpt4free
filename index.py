@@ -26,7 +26,7 @@ pt3 = 'IiUUYnfi9F0aRpAuz_RGT_M-QmF2OnmPOf0fkQ'
 
 intents = discord.Intents.all()
 intents.message_content = True
-bot = commands.Bot(intents=intents)
+bot = commands.Bot(command_prefix="$", intents=intents)
 
 @app.route('/')
 def index():
