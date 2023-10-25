@@ -1,6 +1,7 @@
 import os
 import discord
 from discord.ext import commands
+from discord.commands import Options
 from flask import render_template, Flask
 app = Flask(__name__, template_folder='templates')
 
