@@ -2,8 +2,7 @@ import os
 import discord
 from discord.ext import commands
 from discord.commands import Options
-from flask import render_template, Flask
-app = Flask(__name__, template_folder='templates')
+
 
 
 import g4f
@@ -27,11 +26,8 @@ pt3 = 'IiUUYnfi9F0aRpAuz_RGT_M-QmF2OnmPOf0fkQ'
 
 intents = discord.Intents.all()
 intents.message_content = True
-bot = discord.Bot(intents=intents)
+bot = commands.Bot(intents=intents)
 
-@app.route('/')
-def index():
-    return "Running"
 @bot.event
 async def on_ready():
 	print(f'Logged in as {bot.user.name}, {bot.user.id}, ping is {bot.latency}ms')
@@ -63,7 +59,5 @@ async def text(ctx, prompt: Option(str, "Enter your prompt", required = True, de
 			await message.edit(f"<@!{ctx.author.id}>{final}")
 			print(bot.latency)  
 
-if __name__ == "__main__":
-        app.run(host='0.0.0.0', debug=True)
 
 bot.run(pt1+pt2+pt3)
