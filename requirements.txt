@@ -1,64 +1,4 @@
-absl-py==2.0.0
-accelerate==0.23.0
-aiofiles==23.2.1
-aiohttp==3.8.3
-aiosignal==1.3.1
-altair==4.2.2
-anyio==3.7.1
-appdirs==1.4.4
-arcade==2.6.17
-argon2-cffi==21.3.0
-argon2-cffi-bindings==21.2.0
-astunparse==1.6.3
-async-generator==1.10
-async-timeout==4.0.2
-attributedict==0.3.0
-attrs==21.3.0
-auto-gptq @ https://github.com/jllllll/AutoGPTQ/releases/download/v0.4.2/auto_gptq-0.4.2+cu121-cp310-cp310-win_amd64.whl#sha256=d88f4dd0a2cf92a210e55d2a49d28729e3798a172a0724382780142f21a52cef
-autoawq==0.1.4
-beautifulsoup4==4.11.1
-bidict==0.22.1
-bitsandbytes @ https://github.com/jllllll/bitsandbytes-windows-webui/releases/download/wheels/bitsandbytes-0.41.1-py3-none-win_amd64.whl#sha256=adacda9b2b65dcb1931b222dffd7a91f0b611b3410d5b51c37ef7b22654106e6
-bleach==6.0.0
-blessings==1.7
-blinker==1.6.2
-blis==0.7.9
-boto3==1.28.63
-botocore==1.31.63
-Brotli==1.1.0
-browser-cookie3==0.19.1
-bs4==0.0.1
-cachetools==5.3.2
-catalogue==2.0.8
-certifi==2022.12.7
-cffi==1.15.1
-chardet==5.2.0
-charset-normalizer==2.1.1
-click==8.1.7
-codecov==2.1.13
-colorama==0.4.6
-coloredlogs==15.0.1
-colour-runner==0.1.1
-comtypes==1.1.14
-confection==0.0.4
-contourpy==1.1.0
-coverage==7.3.2
-cramjam==2.7.0
-cryptography==38.0.4
-cssselect==1.2.0
-cssutils==2.6.0
-ctransformers @ https://github.com/jllllll/ctransformers-cuBLAS-wheels/releases/download/AVX2/ctransformers-0.2.27+cu121-py3-none-any.whl#sha256=9be6bfa8ac9feb5b2d4c98fbf5ac90394bbfa5c406313f8161dca67b28333e51
-curl-cffi==0.5.5
-cycler==0.10.0
-cymem==2.0.7
-daal==2023.1.1
-daal4py==2023.1.1
-DataProperty==1.0.1
-datasets==2.14.6
-dbclient @ git+https://github.com/chronosirius/nosql-db-client.git@9965db8c1d14cf6dc8504f0872a535a65daccde6
-decorator==5.1.1
-deepdiff==6.6.1
-dill==0.3.7
+
 discord-py-interactions==4.3.4
 diskcache==5.6.3
 distlib==0.3.7
@@ -70,13 +10,12 @@ docutils==0.20.1
 duckduckgo-search==3.9.3
 EasyProcess==1.1
 einops==0.7.0
-en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.5.0/en_core_web_sm-3.5.0-py3-none-any.whl#sha256=0964370218b7e1672a30ac50d72cdc6b16f7c867496f1d60925691188f4d2510
+
 entrypoint2==1.1
 entrypoints==0.4
 et-xmlfile==1.1.0
 exceptiongroup==1.1.0
-exllama @ https://github.com/jllllll/exllama/releases/download/0.0.18/exllama-0.0.18+cu121-cp310-cp310-win_amd64.whl#sha256=cf248071ae070a4b229cb3daff17f06d28e2b0cf990fcc9b851b67df407da354
-exllamav2 @ https://github.com/turboderp/exllamav2/releases/download/v0.0.6/exllamav2-0.0.6+cu121-cp310-cp310-win_amd64.whl#sha256=d5ce89f67ebeab9b77170d6bc6fce88f9eb40348232c6fb2c207b01a62980c94
+
 fairscale==0.4.13
 fake-useragent==1.1.3
 fastapi==0.104.0
@@ -85,7 +24,6 @@ ffmpy==0.3.1
 filelock==3.12.4
 finnhub-python==2.4.18
 fire==0.5.0
-flash-attn @ https://github.com/bdashore3/flash-attention/releases/download/2.3.2-2/flash_attn-2.3.2+cu122-cp310-cp310-win_amd64.whl#sha256=bc1feca4c9888d820d64227d36cc5100dd7db3c78514e7753b6dda3c3e25dd5c
 Flask==2.2.2
 Flask-Cors==4.0.0
 Flask-SocketIO==5.3.4
@@ -103,7 +41,6 @@ google-auth-httplib2==0.1.0
 google-auth-oauthlib==0.8.0
 google-pasta==0.2.0
 googleapis-common-protos==1.58.0
-gptq-for-llama @ https://github.com/jllllll/GPTQ-for-LLaMa-CUDA/releases/download/0.1.1/gptq_for_llama-0.1.1+cu121-cp310-cp310-win_amd64.whl#sha256=cbb115bd5f493173756826d5fe39293e1ab7bad818fde43886f9cf7722d10d71
 gradio==3.50.2
 gradio_client==0.6.1
 grpcio==1.59.0
@@ -138,9 +75,6 @@ keyring==23.13.1
 kiwisolver==1.4.4
 langcodes==3.3.0
 libclang==16.0.6
--e git+https://github.com/facebookresearch/llama.git@06faf3aab2971e7931e3d5b41e53c4a614d5bad7#egg=llama
-llama_cpp_python==0.2.11
-llama_cpp_python_cuda @ https://github.com/jllllll/llama-cpp-python-cuBLAS-wheels/releases/download/textgen-webui/llama_cpp_python_cuda-0.2.11+cu121-cp310-cp310-win_amd64.whl#sha256=1fea6bbaea4c7da9e3ada625c60b1c6c68084aea1dfcde412334dc2e3e02eb67
 llvmlite==0.39.1
 lm-eval==0.3.0
 loguru==0.7.2
@@ -209,7 +143,6 @@ py-cpuinfo==9.0.0
 pyarrow==11.0.0
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
-PyAudio @ file:///C:/Users/avneh/pipwin/PyAudio-0.2.11-cp310-cp310-win_amd64.whl#sha256=50c5bd3401bc33b9f58a7c8005841575354a8b4d3293e68ccc4db59d31f18f9a
 PyAutoGUI==0.9.54
 pybboxes==0.1.6
 pybind11==2.11.1
@@ -331,7 +264,6 @@ toml==0.10.2
 tomli==2.0.1
 toolz==0.12.0
 torch==2.1.0
-torch-grammar @ git+https://github.com/oobabooga/torch-grammar.git@82850b5383a629f3b0fa1fba7d8f2aba3185ddb2
 torchvision==0.16.0
 tornado==6.3.1
 tox==4.11.3
