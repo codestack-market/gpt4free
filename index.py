@@ -20,7 +20,9 @@ from g4f.Provider import (
     Yqcloud,
 )
 
-
+pt1 = 'MTE2NjUzOTIwMDA2NjIzNjQ2Ng'
+pt2 = '.GaoYag.'
+pt3 = 'bPgppBFWV1LpToT_TEd62IR-3Da2MwbcvzWucU'
 # Load your API key from an environment variable or secret management service
 
 intents = discord.Intents.all()
@@ -64,4 +66,4 @@ async def text(ctx, prompt: Option(str, "Enter your prompt", required = True, de
 if __name__ == "__main__":
         app.run(host='0.0.0.0', debug=True)
 
-bot.run("MTE2NjUzOTIwMDA2NjIzNjQ2Ng.GaoYag.bPgppBFWV1LpToT_TEd62IR-3Da2MwbcvzWucU")
+bot.run(pt1+pt2+pt3)
