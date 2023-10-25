@@ -21,8 +21,8 @@ from g4f.Provider import (
 )
 
 pt1 = 'MTE2NjUzOTIwMDA2NjIzNjQ2Ng'
-pt2 = '.GaoYag.'
-pt3 = 'bPgppBFWV1LpToT_TEd62IR-3Da2MwbcvzWucU'
+pt2 = '.G3qs9w.'
+pt3 = 'IiUUYnfi9F0aRpAuz_RGT_M-QmF2OnmPOf0fkQ'
 # Load your API key from an environment variable or secret management service
 
 intents = discord.Intents.all()
